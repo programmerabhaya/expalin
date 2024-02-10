@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.profile img {
+  height: 283px;
+  width: 283px;
+  object-fit: cover;
+  border-radius: 7px;
+  margin-left: 4px;
+}
+.sujita_identifications {
+  border: 1px solid #dadada;
+  width: 292px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+.together {
+  padding: 19px 6px;
+}
+.btn {
+  display: flex;
+  gap: 27px;
+  text-align: center;
+  /* justify-content: center; */
+  padding-top: 14px;
+}
+.btn button {
+  padding: 6px 9px;
+  border: 1px solid royalblue;
+  background: royalblue;
+  color: white;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.time {
+  border: 1px solid royalblue;
+  background: royalblue;
+  padding: 10px 37px;
+  margin-top: 48px;
+}
+.time a {
+  color: white;
+  text-decoration: none;
+}
+.expalin {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 892px;
+  text-align: center;
+  border: 1px solid #dadada;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-top: 34px;
+}
+.\!important {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.copyright {
+  background: royalblue;
+  padding: 10px 20px;
+  text-align: center;
+  color: w;
+  color: white;
+  margin-top: 91px;
+}
+.photos {
+  text-align: center;
+  margin-top: 40px;
+}
+button {
+  padding: 6px 20px;
+  border-radius: 22px;
+  background: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  cursor: pointer;
+}
