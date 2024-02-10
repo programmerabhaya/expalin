@@ -69,3 +69,10 @@ button.ignore {
   background: orangered;
   border: orangered;
 }
+button {
+  transition: 0.9s;
+}
+button:hover {
+  transition-duration: 0.9s;
+  transform: rotate3d(-2, -3, -1, 276deg);
+}
